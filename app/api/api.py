@@ -27,6 +27,5 @@ def predict():
     prediction = predict_failure(model, features)
     return jsonify({'failure_probability': prediction.tolist()})
 
-# 🔥 THIS IS VERY IMPORTANT to run the server
 if __name__ == '__main__':
     app.run(debug=True)
