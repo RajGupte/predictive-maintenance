@@ -16,9 +16,8 @@ streamlit run app/dashboard.py
 
 ---
 
-#  STEP 7: Run Your API Locally 
+#  Run Your API Locally 
 
-✅ In terminal:
 
 ```bash
 cd app
