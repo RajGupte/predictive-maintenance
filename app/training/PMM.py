@@ -85,7 +85,7 @@ grid = GridSearchCV(
     cv=3,
     scoring='accuracy',
     verbose=2,
-    n_jobs=4  # safer if you have 8 cores; adjust based on laptop power
+    n_jobs=4  
 
 )
 
